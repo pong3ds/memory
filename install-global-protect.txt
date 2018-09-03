@@ -1,0 +1,11 @@
+GlobalProtect do not work in some version of mac to fix that following instruction below
+
+1. Uninstall GlobalProtect by running globalprotect.pkg
+
+2. Restart to recovery mode by press Ctrl+Option+R while restarting
+
+3. Open terminal
+
+4. # spctl kext-consent add PXPZ95SK77
+
+5. Install GlobalProtect again
